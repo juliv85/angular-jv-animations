@@ -1,0 +1,8 @@
+<h3>Items</h3>
+
+<div @inOut *ngFor="let item of items">
+  <div>{{ item }}</div>
+</div>
+<br />
+<button (click)="removeItems()">Remove One</button>
+<pre>{{ elementRemoved }}</pre>
